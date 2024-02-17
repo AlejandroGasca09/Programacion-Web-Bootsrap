@@ -1,0 +1,203 @@
+<!--  PLANTILLA BASE PARA TODAS LAS PANTALLAS -- IGNORAR A PARTIR DE AQUI   -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pantalla</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <!--  PLANTILLA BASE PARA TODAS LAS PANTALLAS -- IGNORAR HASTA AQUI   -->
+
+        <div>
+
+
+            <div>
+                <h4 class="mb-4 fw-bolder text-center">Muestra TOP</h4>
+            </div>
+
+
+            <div class="row mb-4">
+
+                <div class="col-12 col-sm-8 offset-lg-2 mb-4">
+
+                    <div class="card">
+
+                        <div class="card-body">
+
+                            <div class="row">
+
+                                <div class="col-4 mb-3">
+
+                                    <div class="input-group-wm-secondary mb-1 has-validation">
+                                        <span class="input-group-text">No. de folio:</span>
+                                        <input type="text" placeholder="" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-4 mb-3">
+
+                                    <div class="input-group-wm-secondary mb-1 has-validation">
+                                        <span class="input-group-text">No. de estilo:</span>
+                                        <input type="text" placeholder="" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-4 mb-3">
+
+                                    <div class="input-group-wm-secondary mb-1 has-validation">
+                                        <span class="input-group-text">Color:</span>
+                                        <input type="text" placeholder="" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="col-4 mb-3">
+
+                                    <div class="input-group-wm-secondary mb-1 has-validation">
+                                        <span class="input-group-text">No. Block de captura:</span>
+                                        <input type="text" placeholder="" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="col-4  mb-3">
+                                    <div class="card ">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="input-group mb-3">
+                                                        <label class="input-group-text">Estado:</label>
+                                                        <select class="form-select">
+                                                            <option selected>Seleccion</option>
+                                                            <option value="1"></option>
+                                                            <option value="2"></option>
+                                                            <option value="3"></option>
+                                                        </select>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-4 mb-3">
+
+                                    <div class="input-group-wm-secondary mb-1 has-validation">
+                                        <span class="input-group-text">Fecha de operacion:</span>
+                                        <input type="text" placeholder="" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="col-12  mb-3">
+                                    <div class="card ">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="input-group mb-3">
+                                                        <input type="file" class="form-control" id="inputGroupFile02">
+                                                        <label class="input-group-text"
+                                                            for="inputGroupFile02">Ver</label>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 mb-3">
+                                    <div class="input-group-wm-secondary mb-1 has-validation">
+                                        <span class="input-group-text">Observaciones:</span>
+                                        <textarea class="form-control" style="height: 100px"></textarea>
+                                    </div>
+
+                                </div>
+
+
+
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+
+                <div class="table-responsive mb-4 text-center">
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th>Clave</th>
+                                <th>Punto de medida</th>
+                                <th>Tolerancia +/-</th>
+                                <th>CH</th>
+                                <th>MED</th>
+                                <th>GDE</th>
+                                <th>EGDE</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>B</td>
+                                <td>ANCHO PRETINA</td>
+                                <td>0.3</td>
+                                <td>
+                                    <div class="input-group-wm-secondary mb-1 has-validation">
+                                        <span class="input-group-text">3.5</span>
+                                        <input type="text" placeholder="" class="form-control">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="input-group-wm-secondary mb-1 has-validation">
+                                        <span class="input-group-text">3.5</span>
+                                        <input type="text" placeholder="" class="form-control">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="input-group-wm-secondary mb-1 has-validation">
+                                        <span class="input-group-text">3.5</span>
+                                        <input type="text" placeholder="" class="form-control">
+                                    </div>
+                                <td>
+                                    <div class="input-group-wm-secondary mb-1 has-validation">
+                                        <span class="input-group-text">3.5</span>
+                                        <input type="text" placeholder="" class="form-control">
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+                </div>
+
+            </div>
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end mb-3">
+                <button class="btn btn-primary me-md-2" type="button">Cancelar</button>
+                <button class="btn btn-primary" type="button">Guardar</button>
+            </div>
+
+        </div>
+
+
+
+
+        <!--  PLANTILLA BASE PARA TODAS LAS PANTALLAS -- IGNORAR A PARTIR DE AQUI   -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>
